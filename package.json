@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "language-email:toggle"
   },
-  "repository": "https://github.com/atom/language-email",
+  "repository": "https://github.com/rseichter/language-email",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
