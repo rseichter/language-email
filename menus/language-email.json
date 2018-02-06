@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle language-email",
+        "command": "language-email:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "language-email",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "language-email:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

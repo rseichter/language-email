@@ -1,0 +1,22 @@
+scopeName: 'source.email'
+name: 'email'
+fileTypes: ['eml', 'email']
+
+patterns: [
+    {
+        match: '\\b[0-9]+\\b'
+        name: 'constant.numeric.email'
+    }
+    {
+        match: '^>\\s*>\\s*>.*'
+        name: 'constant.character.email'
+    }
+    {
+        match: '^>\\s*>.*'
+        name: 'storage.type.email'
+    }
+    {
+        match: '^>.*'
+        name: 'string.quoted.single.email'
+    }
+]

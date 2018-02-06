@@ -1,0 +1,18 @@
+{
+  "name": "language-email",
+  "main": "./lib/language-email",
+  "version": "0.0.0",
+  "description": "Grammar for email composition with quote-level highlighting.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "language-email:toggle"
+  },
+  "repository": "https://github.com/atom/language-email",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

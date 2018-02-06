@@ -1,0 +1,8 @@
+'.source.email':
+    editor:
+        autoIndentOnPaste: false
+        commentStart: '>'
+        preferredLineLength: 72
+        softTabs: true
+        softWrap: false
+        tabLength: 2
