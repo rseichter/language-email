@@ -4,19 +4,28 @@
 
 "patterns": [
     {
-        "match": "\\b[0-9]+\\b"
+        "match": "\\b\\d+\\b"
         "name": "constant.numeric.email"
     }
     {
-        "match": "^>\\s*>\\s*>.*"
-        "name": "constant.character.email"
+        "match": "^(>\\s*){4}.*"
+        "name": "variable.language.email"
     }
     {
-        "match": "^>\\s*>.*"
+        "match": "^(>\\s*){3}.*"
         "name": "storage.type.email"
     }
     {
+        "match": "^(>\\s*){2}.*"
+        "name": "string.other.email"
+    }
+    {
         "match": "^>.*"
-        "name": "string.quoted.single.email"
+        "name": "markup.quote.email"
+    }
+    {
+        "begin": "^-- +"
+        "end": "\\z"
+        "name": "comment.block.email"
     }
 ]
