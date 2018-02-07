@@ -7,7 +7,9 @@
   "activationCommands": {
     "atom-workspace": "language-email:toggle"
   },
+  "homepage": "https://github.com/rseichter/language-email/wiki",
   "repository": "https://github.com/rseichter/language-email",
+  "author": "Ralph Seichter",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
