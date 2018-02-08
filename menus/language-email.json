@@ -1,0 +1,18 @@
+{
+    "context-menu": {
+        "atom-text-editor": [{
+            "label": "Cleanup email (selection or full text)",
+            "command": "language-email:cleanupText"
+        }]
+    },
+    "menu": [{
+        "label": "Packages",
+        "submenu": [{
+            "label": "Language email",
+            "submenu": [{
+                "label": "Cleanup email (selection or full text)",
+                "command": "language-email:cleanupText"
+            }]
+        }]
+    }]
+}

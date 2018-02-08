@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "language-email:toggle"
+    "ctrl-alt-c": "language-email:cleanupText"
   }
 }
