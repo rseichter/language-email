@@ -5,7 +5,7 @@
   "description": "Grammar for email composition with quote-level highlighting.",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "language-email:toggle"
+    "atom-workspace": "language-email:cleanupText"
   },
   "homepage": "https://github.com/rseichter/language-email/wiki",
   "repository": "https://github.com/rseichter/language-email",
